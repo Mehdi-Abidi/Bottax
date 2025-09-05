@@ -1782,4 +1782,5 @@ with voice_col2:
     if submit_button and user_query.strip():
         # Add user message to session state
         st.session_state.messages.append({'role': 'user', 'content': user_query})
+
         process_query(user_query)
