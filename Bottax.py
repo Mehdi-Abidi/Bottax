@@ -2444,7 +2444,7 @@ st.markdown("""
         border-radius: 12px !important;
         padding: 0.5rem 1rem !important;
         font-weight: 500 !important;
-        font-size: 0.9rem !important;
+        font-size: 0.7rem !important;
         transition: all 0.3s ease !important;
         box-shadow: 0 8px 32px """ + (
             "rgba(0, 0, 0, 0.6)" if st.session_state.theme == 'dark' 
@@ -2832,3 +2832,4 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
+
